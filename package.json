@@ -1,12 +1,13 @@
 {
-  "name": "server",
+  "name": "server4blogpost",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start" : "node server.js",
     "server": "json-server-relationship --watch db.json"
   },
-  "author": "",
+  "author": "Arafat",
   "license": "ISC",
   "dependencies": {
     "json-server-relationship": "^0.14.5"
